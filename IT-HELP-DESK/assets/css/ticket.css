@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f9fa; /* Light grey background for the whole page */
+    margin: 0;
+    font-family: Arial, sans-serif !important;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.header-container img {
+    height: 40px;
+    margin-right: 10px;
+}
+.header-container .logo span, .header-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.form-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.form-container h4 {
+    color: black; 
+    margin-bottom: 20px;
+}
+
+.form-container .form-floating {
+    margin-bottom: 20px;
+}
+
+.form-container .form-check {
+    margin-bottom: 15px;
+}
+
+.form-container textarea {
+    resize: none;
+}
+
+.header-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.header-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.header-buttons .back-btn {
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}

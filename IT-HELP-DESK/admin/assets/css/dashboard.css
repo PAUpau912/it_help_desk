@@ -1,0 +1,84 @@
+   /* General Styles */
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 60px; /* Adjust for header height */
+    left: 0;
+    width: 200px;
+    height: calc(100% - 60px); /* Full height minus header */
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    z-index: 999;
+}
+
+/* Main Content Area */
+.main-container {
+    margin-left: 200px; /* Space for the sidebar */
+    margin-top: 60px; /* Space for the fixed header */
+    padding: 20px;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-container h3 {
+    margin-bottom: 40px;
+    font-weight: bold; /* Makes the text bold */
+    font-size: xx-large;  /* Retains the large font size */
+}
+.stats-card h6{
+    font-weight: bold; /* Makes the text bold */
+    font-size: large;  /* Retains the large font size */
+}
+
+/* Cards Styles */
+.stats-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 500px;
+}
+
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Chart Container */
+.chart-container {
+    margin-top: 40px !important;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#myChart {
+    max-width: 100%;
+    height: auto;
+}
